@@ -1,0 +1,6 @@
+const a = require('ooxx')
+// this is comment
+
+a.ooxx = 2
+str = 'hi'
+str2 = "hello"
