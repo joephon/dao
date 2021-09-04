@@ -2,5 +2,26 @@ const a = require('ooxx')
 // this is comment
 
 a.ooxx = 2
-str = 'hi'
-str2 = "hello"
+float = -123.456
+float = 567.890
+int = -332;int = -1
+int = +1;int = 2
+1+2=3
+(1>2)
+3<2
+1/2
+22>=33
+23<=22
+34!=33
+3*6
+2**4
+2^5
+2@5
+2&&2
+3&4
+5|2
+6||2
+"abcd" += 'efgh'
+[2--]
+{2++}
+(2-=2)

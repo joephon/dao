@@ -1,6 +1,6 @@
 class Token {
   static EOF = new Token(-1)
-  static EOL = '\\n'
+  static EOL = '\n'
 
   constructor(line) {
     this.lineNumber = line
@@ -19,12 +19,24 @@ class StrToken extends Token {
   }
 }
 
-class NumToken extends Token {
+class IntToken extends Token {
+  constructor(line) {
+    super(line)
+  }
+}
+
+class FloatToken extends Token {
+  constructor(line) {
+    super(line)
+  }
+}
+
+class OpToken extends Token {
   constructor(line) {
     super(line)
   }
 }
 
 module.exports = {
-  Token, IdToken, StrToken, NumToken,
+  Token, IdToken, StrToken, IntToken, FloatToken, OpToken,
 }
